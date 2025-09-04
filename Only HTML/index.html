@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--  -->
+    <title>HTML Cheat Sheet</title>
+</head>
+<body>
+    <!-- Headings -->
+    <h1>HTML</h1> <!-- Heading (1 biggest, 6 smallest)-->
+    <h2>HTML</h2> 
+    <h3>HTML</h3> 
+    <h4>HTML</h4> 
+    <h5>HTML</h5> 
+    <h6>HTML</h6> 
+
+    <!-- Paragraph -->
+    <p>Tämä on Kappale (Teksti)</p>
+<p>     <!-- Paragraph with bold (<strong>) and italic (<em> empathize) text -->
+        <!-- <a> is hyperlink with google as the location and target="--blank" opens it in a new tab-->
+        <strong>Lorem</strong> ipsum <em>dolor</em>, <a rel="noopener noreferrer" href="https://google.com" target="_blank">sit</a> amet consectetur adipisicing elit. Animi mollitia magni, at nihil esse neque quae quasi iusto possimus deleniti rerum architecto cum. Minima, s
+
+        <!-- Lists -->
+         <!-- Unordered list --> <!--Mostly for navigation-->
+         <ul>
+            <!-- List items -->
+            <li>Unordered list item 1</li>
+            <li>Unordered list item 2</li>
+            <li>Unordered list item 3</li>
+            <li>Unordered list item 4</li>
+         </ul>
+
+          <!-- Ordered list --> <!--Mostly for rankings and so on-->
+         <ol>
+            <!-- List items -->
+            <li>Ordered list item 1</li>
+            <li>Ordered list item 2</li>
+            <li>Ordered list item 3</li>
+            <li>Ordered list item 4</li>
+         </ol>
+
+         <!-- Tables --> <!-- Tabular data only -->
+          <table>
+            <thead> <!-- Table head -->
+                <tr> <!-- Table row -->
+                    <th>Name</th>    <!-- Table header cell -->
+                    <th>Age</th>      
+                    <th>City</th>     
+                </tr>
+            </thead>
+            <tbody> <!-- Table body -->
+                <tr> <!-- Table row -->
+                    <td>John Doe</td>    <!-- Table data cell -->
+                    <td>30</td>          
+                    <td>New York</td>   
+                </tr>
+                <tr> <!-- Table row -->
+                    <td>Jane Smith</td>  
+                    <td>25</td>          
+                    <td>Los Angeles</td> 
+                </tr>
+                <tr> <!-- Table row -->
+                    <td>Mike Johnson</td>
+                    <td>35</td>         
+                    <td>Chicago</td>    
+                </tr>
+            </tbody>
+          </table>
+          
+          <br>
+          <hr> <!-- Horizontal line -->
+          <br>
+
+          <!-- Forms --> <!-- User input -->
+          <form action="process.php" method="post">
+            <div>
+                <label>First name: </label>
+                <input type="text" name="firstName" placeholder="First name">
+            </div>
+
+            <br>
+
+            <div>
+                <label>Last name: </label>
+                <input type="text" name="lastName" placeholder="Last name">
+            </div>
+
+            <br>
+
+            <div>
+                <label>Email: </label>
+                <input type="email" name="email" placeholder="Email">
+            </div>
+
+            <br>
+
+            <div>
+                <label>Password: </label>
+                <input type="password" name="password" placeholder="Password">
+            </div>
+
+            <br>
+
+            <div>
+                <label>Age: </label>
+                <input type="number" name="age" placeholder="Age">
+            </div>
+
+            <br>
+
+            <div>
+                <label>Birthday: </label>
+                <input type="date" name="birthday" placeholder="Birthday" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label>Gender</label>
+                    <select name="Gender">
+                        <option value="male">Male</option>
+                        <option value="female">female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label>
+            </div>
+
+            <br>
+
+            <div>
+                <input type="button" name="submit" value="Submit">
+            </div>
+          </form>
+          <!-- Button -->
+
+          <button>Click Me</button>
+
+          <br>
+
+          <hr> <!-- Horizontal line -->
+
+          <!-- Image -->
+           <a href="sunset.jpg">
+                <img src="sunset.jpg" alt="Sunet"> <!-- Image with width and height -->
+           </a>
+
+           <br>
+
+           <!-- Quatations -->
+            <blockquote cite="https://google.com">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit ipsam quae soluta? Recusandae tempore veniam debitis ab repellat deleniti ipsam eos perferendis. Est expedita dolorum consequatur in officiis nemo! Voluptatum!
+            </blockquote>
+            
+            <br>
+
+            <p>The <abbr title="World Wide Web">WWW</abbr> is awesome</p>
+
+            <br>
+
+            <p><cite>HTML Crash Course</cite> by Brad Traversy</p>
+            
+            <br>
+
+
+            
+          <div style="margint-top:500px">
+            <footer>
+                <p>&copy; 2025 HTML Cheat Sheet</p>
+            </footer>
+          </div>
+</body>
+</html>
