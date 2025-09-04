@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My blog</title>
+
+    <!-- Description for the page-->
+    <meta name="description" content="A simple blog page example using HTML5 and CSS3.">
+    <meta name="keywords" content="HTML5, CSS3, Blog, Web Development">
+
+    <!-- CSS styling but use CSS in its own file (styles.css or anything.css) and remembe to link it-->
+    <style type="text/css">
+        #main-header, #main-footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        #main-footer{
+            text-align: center;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <header id="main-header">
+        <h1>My blog</h1>
+    </header>
+
+    <a href="index.html">Go back to homepage</a>
+
+    <section id="posts">
+        <article class="post">
+            <h3>First Post</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quos omnis perspiciatis alias natus illo quidem, minima cum sint. Vel dolore minima ea repellendus esse inventore nihil officiis soluta ipsa.</p>
+            <small>Posted on 2025-9-04</small>
+            <a href="post.html">Read more</a>
+        </article>
+        <article class="post">
+            <h2>Second Post</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quos omnis perspiciatis alias natus illo quidem, minima cum sint. Vel dolore minima ea repellendus esse inventore nihil officiis soluta ipsa.</p>
+            <small>Posted on 2025-9-02</small>
+            <a href="post.html">Read more</a>
+        </article>
+        <article class="post">
+            <h4>Third Post</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quos omnis perspiciatis alias natus illo quidem, minima cum sint. Vel dolore minima ea repellendus esse inventore nihil officiis soluta ipsa.</p>
+            <small>Posted on 2025-9-03</small>
+            <a href="post.html">Read more</a>
+    </section>
+    
+    <aside id="sidebar">
+        <h3>Categories</h3>
+        <nav>
+            <ul>
+                <li><a HREF="#">Web Development</a></li>
+                <li><a HREF="#">Programming</a></li>
+                <li><a HREF="#">Technology</a></li>
+                <li><a HREF="#">Tutorials</a></li>
+                <li><a HREF="#">Design</a></li>
+                <li><a HREF="#">Lifestyle</a></li>
+                <li><a HREF="#">Travel</a></li>
+            </ul>
+        </nav>
+    </aside>
+    
+    <footer id="main-footer">
+        <p>&copy; 2025 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
