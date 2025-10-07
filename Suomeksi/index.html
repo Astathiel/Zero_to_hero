@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Cheat Sheet</title>
+</head>
+<body>
+        <a href="blog.html">Go to the blog page</a>
+    </header>
+
+    <!-- Otsikot -->
+    <h1>HTML</h1> <!-- Otsikko (1 suurin, 6 pienin)-->
+    <h2>HTML</h2> 
+    <h3>HTML</h3> 
+    <h4>HTML</h4> 
+    <h5>HTML</h5> 
+    <h6>HTML</h6> 
+
+    <!-- Kappale -->
+    <p>Tämä on Kappale (Teksti)</p>
+    <!-- Kappale lihavoidulla (<strong>) ja kursivoidulla (<em> korostus) tekstillä -->
+    <!-- <a> on hyperlinkki, jonka sijainti on google ja target="_blank" avaa sen uudessa välilehdessä-->
+    <p>
+        <strong>Lorem</strong> ipsum <em>dolor</em>, <a rel="noopener noreferrer" href="https://google.com" target="_blank">sit</a> amet consectetur adipisicing elit. Animi mollitia magni, at nihil esse neque quae quasi iusto possimus deleniti rerum architecto cum. Minima.
+    </p>
+
+        <!-- Listat -->
+         <!-- Järjestämätön lista --> <!--Pääasiassa navigointiin-->
+         <ul>
+            <!-- Listaelementit -->
+            <li>Unordered list item 1</li>
+            <li>Unordered list item 2</li>
+            <li>Unordered list item 3</li>
+            <li>Unordered list item 4</li>
+         </ul>
+
+          <!-- Järjestetty lista --> <!--Pääasiassa sijoituksiin ja vastaaviin-->
+         <ol>
+            <!-- Listaelementit -->
+            <li>Ordered list item 1</li>
+            <li>Ordered list item 2</li>
+            <li>Ordered list item 3</li>
+            <li>Ordered list item 4</li>
+         </ol>
+
+         <!-- Taulukot --> <!-- Vain taulukkomuotoiselle datalle -->
+          <table>
+            <thead> <!-- Taulukon ylätunniste -->
+                <tr> <!-- Taulukon rivi -->
+                    <th>Name</th>    <!-- Taulukon otsikkosolu -->
+                    <th>Age</th>      
+                    <th>City</th>     
+                </tr>
+            </thead>
+            <tbody> <!-- Taulukon runko -->
+                <tr> <!-- Taulukon rivi -->
+                    <td>John Doe</td>    <!-- Taulukon datasolu -->
+                    <td>30</td>          
+                    <td>New York</td>   
+                </tr>
+                <tr> <!-- Taulukon rivi -->
+                    <td>Jane Smith</td>  
+                    <td>25</td>          
+                    <td>Los Angeles</td> 
+                </tr>
+                <tr> <!-- Taulukon rivi -->
+                    <td>Mike Johnson</td>
+                    <td>35</td>         
+                    <td>Chicago</td>    
+                </tr>
+            </tbody>
+          </table>
+          
+          <br>
+          <hr> <!-- Vaakaviiva -->
+          <br>
+
+          <!-- Lomakkeet --> <!-- Käyttäjän syöte -->
+          <form action="process.php" method="post">
+            <div>
+                <label>First name: </label>
+            <br>
+
+            <div>
+                <label for="gender">Gender</label>
+                <select id="gender" name="Gender">
+                    <option value="male">Male</option>
+                    <option value="female">female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <br>
+
+            <div>
+                <input type="submit" name="submit" value="Submit">
+            </div>
+          </form>
+          <!-- Painike -->
+
+          <button>Click Me</button>
+
+          <br>
+
+          <hr> <!-- Vaakaviiva -->
+
+          <!-- Kuva -->
+           <a href="sunset.jpg">
+                <img src="sunset.jpg" alt="Sunet" width="200"> <!-- Image with width and height -->
+           </a>
+
+           <br>
+
+           <!-- Lainaukset -->
+            <blockquote cite="https://google.com">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit ipsam quae soluta? Recusandae tempore veniam debitis ab repellat deleniti ipsam eos perferendis. Est expedita dolorum consequatur in officiis nemo! Voluptatum!
+            </blockquote>
+            <br>
+
+
+          <footer style="margin-top:500px">
+            <p>&copy; 2025 HTML Cheat Sheet</p>
+          </footer>
+</body>
+</html>
